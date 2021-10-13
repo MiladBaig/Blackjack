@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,500&display=swap');
+
+
+body{
+    text-align: center;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(./playing-card.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: goldenrod;
+    opacity: 0.80;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+button{
+    background-color: goldenrod;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: tomato;
+}
+
+.wrapper{
+    height: 100%;
+    font-size: 2.5rem;
+
+}
+
+
+@media (max-width: 720px){
+    .wrapper{
+        font-size: 1.75rem;
+    }
+}
